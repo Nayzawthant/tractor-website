@@ -2,7 +2,7 @@ import React from 'react'
 
 const Discover = () => {
     return (
-        <div className='bg-[#fff] w-full'>
+        <div className='bg-[#fff] w-full mt-10'>
             <div className='p-10 pb-0 text-[40px] text-center text-[#292524] font-oswald font-bold tracking-wider'>
                 Discover
                 <div className='text-[16px] font-semibold'>Explore the world of Tractor through our latest news, events and videos</div>

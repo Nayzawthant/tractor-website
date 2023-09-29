@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Playfair+Display:wght@500&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Oswald:wght@200;300&family=Playfair+Display:wght@500&family=Poppins:wght@300&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.shadow-login .two {
+  padding: 10px 15px;
+  border-radius: 4px;
+  position: relative;
+  border: 1px solid #292524;
+  color: #fff;
+  z-index: 1;
+  font-weight: 500;
+  transition: all 0.5s ease-in;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.shadow-login .two::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  background-color: #292524;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  font-weight: 500;
+  transition: all 0.5s ease-in;
+}
+
+.shadow-login .two:hover {
+  color: #292524;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.shadow-login .two:hover::before {
+  width: 0%;
+  color: #fff;
+
+}
+
+
+
+
+.mainback {
+  background: linear-gradient(270deg,#f5f6f7,#eaeaea);
+  font-family: 'Roboto' ,sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+
+.font-bruno-ace {
+  font-family: 'Karla';
+}
+
+.font-oswald {
+  font-family: 'Oswald';
+}
+
+.play-fair {
+  font-family: 'Playfair Display';
+}
+
+.prev-button,
+.next-button {
+  position: absolute;
+  top: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-50%);
+  background-color: #3c3c41;
+  color: #fff;
+  padding: 8px 10px;
+  text-align: center;
+  border: none;
+  border-radius: 0px;
+  font-size: 22px;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.prev-button {
+  left: 40px;
+}
+
+.next-button {
+  right: 40px;
+}
+
+.vehicles-card {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background: linear-gradient(180deg, #000 8%, #0c0c0c00);
+  min-height: 75px;
+}
+
+/* 
+.vehicles-card:hover {
+  display: none;
+} */
+
+.vehicles-card-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(-180deg, #0c0c0c00 1%, #000);
+  min-height: 85px;
+}
+
+/* 
+.vehicles-card-footer:hover {
+  display: none;
+} */
+
+.gradient-four-sided {
+  position: relative;
+}
+
+.gradient-four-sided::before,
+.gradient-four-sided::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.gradient-four-sided::before {
+  background-image: linear-gradient(to top right);
+  z-index: -1;
+}
+
+.gradient-four-sided::after {
+  background-image: linear-gradient(to bottom left);
+  z-index: -2;
+}
+
+
+.storebutton {
+  font-size: 10px;
+  color: white;
+  width: 100%;
+  display: flex;
+}
+
+
+.storebutton .two {
+  padding: 10px 30px;
+  border-radius: 4px;
+  position: relative;
+  border: 1px solid #0e0e0f;
+  color: #fff;
+  z-index: 1;
+  font-weight: 500;
+  transition: all 0.5s ease-in;
+  margin-right: 10px;
+}
+
+.storebutton .two::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  background-color: #000;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  font-weight: 500;
+  transition: all 0.5s ease-in;
+}
+
+.storebutton .two:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+.storebutton .two:hover::before {
+  width: 0%;
+  color: #fff;
+
+}
+
+/* HHH */
+
+.storebutton .one {
+  padding: 10px 30px;
+  position: relative;
+  border: 1px solid #0e0e0f;
+  border-radius: 4px;
+  color: #000;
+  z-index: 1;
+  font-weight: 500;
+  transition: all 0.5s ease-in;
+}
+
+.storebutton .one::before {
+  content: '';
+  position: absolute;
+  border-radius: 4px;
+  top: 0;
+  left: 0;
+  color: #000;
+  background-color: #fff;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  font-weight: 500;
+  transition: all 0.5s ease-in;
+}
+
+.storebutton .one:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+.storebutton .one:hover::before {
+  width: 0%;
+  color: #000;
+
+}
+
+.card-container {
+  position: relative;
+  width: 200px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.card {
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  transition: transform 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.card-front {
+  background-color: lightblue;
+}
+
+.card-back {
+  background-color: lightgreen;
+  transform: rotateY(360deg);
+}
+
+/* IPL */
+.line-indicator li {
+  /* border: 2px solid; */
+  height: 4px;
+  width: 70px;
+  background: lightgray;
+  border-radius: 5px;
+}
+
+.line-indicator li:hover {
+  background: gray;
+}
+
+.line-indicator li.slick-active {
+  background: blue;
+}
+.buttons {
+  background: orangered !important;
+  color: white !important;
+  transition: 700ms;
+}
+.buttons:hover {
+  /* background: white !important; */
+  /* color: orangered !important; */
+  transform: scale(1.1);
+}

@@ -91,15 +91,14 @@ const Vehicels = () => {
                 <div class="py-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-5 font-oswald">
                     <div class="rounded overflow-hidden shadow-lg">
 
-                        <div class="px-3 py-4">
+                        <div class="px-7 py-4 bg-[#f4f1f1]">
                             <div class="font-bold text-xl mb-2">Mountain</div>
                             <p class="text-gray-700 text-base">
                                 Lorem ipsum dolor sit amet,
                             </p>
                         </div>
-                        <div class="px-3 pt-4 pb-4">
-                            <div className='flex storebutton'>
-
+                        <div class="px-7 pt-4 pb-4">
+                            <div className='flex storebutton'>  
                                 <a href='#' className="text-white font-dmserif text-md two">Discover</a>
                                 <a href='#' className="text-white font-dmserif text-md one">Quick View</a>
                             </div>

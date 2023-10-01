@@ -4,7 +4,7 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div className='mainback'>
+    <div className='mainback young-font'>
       <div className='w-[80%] mx-auto flex items-center justify-between '>
         <div className='flex items-center'>
           <div className='px-3 py-2 mr-3 bg-white shadow-logo'>
@@ -21,7 +21,6 @@ const Header = () => {
           <Link href={'#'}>Vehicles</Link>
           <Link href={'#'}>News & Reviews</Link>
           <Link href={'#'}>Contact us</Link>
-          <Link href={'#'}>Vehicles</Link>
           <Link href={'#'}>Art & Culter</Link>
           <Link href={'#'}>Sustainability</Link>
 
@@ -29,7 +28,7 @@ const Header = () => {
         
         <div className='shadow-login'>
           
-          <Link href={'#'} className='text-white two' >Login</Link>
+          <Link href={'#'} className='text-white tex-[12px] two' >Login</Link>
         </div>
       </div>
     </div>

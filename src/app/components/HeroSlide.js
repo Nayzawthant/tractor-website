@@ -38,11 +38,11 @@ function HeroSlide() {
             >
 
                 <SwiperSlide>
-                    <div className='relative w-[100%] slide_show h-[91vh]'>
+                    <div className='relative w-[100%] slide_show h-[91vh] young-font'>
                         <div className='absolute top-[6%] left-[6%] w-[350px] flex-wrap  flex'>
                             <div className='text-center'>
                                 <div className='flex flex-wrap text-left'>
-                                    <h1 className='text-[25px] w-full md:text-[40px] lg:text-[50px] font-black text-white font-bruno-ace' >Mercedes-Benz
+                                    <h1 className='text-[25px] w-full md:text-[40px] lg:text-[50px] font-black text-white ' >Mercedes-Benz
                                         Vehicles.</h1>
 
                                 </div>
@@ -54,11 +54,11 @@ function HeroSlide() {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className='relative w-[100%] slide_show h-[91vh]'>
+                    <div className='relative w-[100%] slide_show h-[91vh] young-font'>
                         <div className='absolute top-[6%] left-[6%] w-[350px] flex-wrap  flex'>
                             <div className='text-center'>
                                 <div className='flex flex-wrap text-left'>
-                                    <h1 className='text-[25px] w-full md:text-[40px] lg:text-[50px] font-black text-white font-bruno-ace' >Mercedes-Benz
+                                    <h1 className='text-[25px] w-full md:text-[40px] lg:text-[50px] font-black text-white' >Mercedes-Benz
                                         Vehicles.</h1>
 
                                 </div>
@@ -68,11 +68,11 @@ function HeroSlide() {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className='relative w-[100%] slide_show h-[91vh]'>
+                    <div className='relative w-[100%] slide_show h-[91vh] young-font'>
                         <div className='absolute top-[6%] left-[6%] w-[350px] flex-wrap  flex'>
                             <div className='text-center'>
                                 <div className='flex flex-wrap text-left'>
-                                    <h1 className='text-[25px] w-full md:text-[40px] lg:text-[50px] font-black text-white font-bruno-ace' >Mercedes-Benz
+                                    <h1 className='text-[25px] w-full md:text-[40px] lg:text-[50px] font-black text-white' >Mercedes-Benz
                                         Vehicles.</h1>
 
                                 </div>

@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Playfair+Display:wght@500&family=Poppins:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Oswald:wght@200;300&family=Playfair+Display:wght@500&family=Poppins:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Barlow&family=Inconsolata:wght@500&family=Jost:wght@300&family=Lexend:wght@500&family=Londrina+Outline&family=Manrope&family=Montserrat:wght@500&family=PT+Sans&family=Playfair+Display:wght@600&family=Roboto:wght@300&family=Work+Sans:wght@500&family=Young+Serif&display=swap');
+
 
 @tailwind base;
 @tailwind components;
@@ -9,6 +11,10 @@
 * {
   margin: 0;
   padding: 0;
+}
+
+.young-font {
+  font-family: 'Young Serif', serif;
 }
 
 .experience {
@@ -61,12 +67,9 @@
 }
 
 
-
-
 .mainback {
   background: linear-gradient(270deg,#f5f6f7,#eaeaea);
-  font-family: 'Roboto' ,sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 1px;
 }
 
@@ -253,25 +256,16 @@
 }
 
 .card {
-  position: absolute;
-
-  width: 100%;
-  height: 100%;
   backface-visibility: hidden;
   transition: transform 0.5s;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 24px;
-  font-weight: bold;
 }
 
 .card-front {
-  background-color: lightblue;
+  
 }
 
 .card-back {
-  background-color: lightgreen;
+ 
   transform: rotateY(360deg);
 }
 

@@ -264,6 +264,12 @@
   
 }
 
+.product-border {
+  width: 100%;
+  height: 2px;
+  background-color: #e4e1e1;
+}
+
 .card-back {
  
   transform: rotateY(360deg);

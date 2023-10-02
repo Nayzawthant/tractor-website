@@ -52,8 +52,8 @@ const VehiclesCard = ({ key, frontContent, backContent }) => {
                     </div>
                 </div>
                 :
-                <div class="rounded overflow-hidden shadow-lg">
-                    <img class="w-full h-48" src="http://pluspng.com/img-png/tractor-hd-png-tractor-png-1000.png" alt="Mountain" />
+                <div class="rounded overflow-hidden">
+                    <img class="w-full h-48 p-6" src="http://pluspng.com/img-png/tractor-hd-png-tractor-png-1000.png" alt="Mountain" />
                     <div class="px-3 py-4">
                         <div class="font-bold text-gray-800 text-[16px] mb-2 tracking-widest opacity-90">MF RK Series</div>
                         <p class="text-gray-700 text-[14px]">

@@ -11,7 +11,7 @@ const VehiclesCard = ({ key, frontContent, backContent }) => {
 
         <div className={`card ${isBackVisible ? 'card-back' : 'card-front'}`}>
             {isBackVisible ?
-                <div class="rounded overflow-hidden shadow-lg">
+                <div class="rounded overflow-hidden shadow-lg bg-white">
 
                     <div class="px-7 py-4 bg-[#f4f1f1]">
                         <div class="font-bold text-xl my-2">MF 8700 S</div>
@@ -52,7 +52,7 @@ const VehiclesCard = ({ key, frontContent, backContent }) => {
                     </div>
                 </div>
                 :
-                <div class="rounded overflow-hidden">
+                <div class="rounded overflow-hidden bg-white">
                     <img class="w-full h-48 p-6" src="http://pluspng.com/img-png/tractor-hd-png-tractor-png-1000.png" alt="Mountain" />
                     <div class="px-3 py-4">
                         <div class="font-bold text-gray-800 text-[16px] mb-2 tracking-widest opacity-90">MF RK Series</div>

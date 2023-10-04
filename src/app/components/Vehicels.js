@@ -2,16 +2,10 @@
 import VehiclesCard from './VehiclesCard';
 
 const Vehicels = () => {
-    const cardsData = [
-        { frontContent: 'Front Content 1', backContent: 'Back Content 1' },
-        { frontContent: 'Front Content 2', backContent: 'Back Content 2' },
-        { frontContent: 'Front Content 3', backContent: 'Back Content 3' },
-        // Add more card data here
-    ];
 
     return (
 
-        <div className='bg-[#fff] vehicle mb-4 '>
+        <div className='mb-4  vehicle'>
             <div className='mx-auto  w-[80%]'>
                 <div className='py-10 pb-0 text-[20px] text-[#292524] font-semibold tracking-wider opacity-90'>
                     3 Available Products

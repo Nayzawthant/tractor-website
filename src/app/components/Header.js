@@ -1,6 +1,7 @@
-
+"use client"
 import Link from 'next/link'
-import React from 'react'
+import React, { useState } from 'react'
+
 
 const Header = () => {
   return (
@@ -17,17 +18,17 @@ const Header = () => {
           </div>
         </div>
         <div className='text-[#292524] text-[1rem] px-10 py-2 flex items-center justify-center gap-7 flex-wrap'>
-          <Link href={'#'}>Home</Link>
-          <Link href={'#'}>Vehicles</Link>
+          <Link href={'/'}>Home</Link>
+          <Link href={'/vehicels'}>Vehicles</Link>
           <Link href={'#'}>News & Reviews</Link>
           <Link href={'#'}>Contact us</Link>
           <Link href={'#'}>Art & Culter</Link>
           <Link href={'#'}>Sustainability</Link>
 
         </div>
-        
+
         <div className='shadow-login'>
-          
+
           <Link href={'#'} className='text-white tex-[12px] two' >Login</Link>
         </div>
       </div>

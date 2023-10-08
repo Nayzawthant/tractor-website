@@ -14,7 +14,7 @@ const Discover = () => {
                     </div>
                     <div class=" py-4">
                         <div class=" text-xl mb-2 font-oswald font-light">MG4 review: electric hatchback smashes its brief (and its rivals)</div>
-                        
+
                     </div>
                 </div>
 
@@ -23,8 +23,8 @@ const Discover = () => {
                         <img class="w-full h-full" src="https://miro.medium.com/max/2800/0*35g4csiuSCauKsGW" alt="River" />
                     </div>
                     <div class=" py-4">
-                    <div class=" text-xl mb-2 font-oswald font-light">MG4 review: electric hatchback smashes its brief (and its rivals)</div>
-                        
+                        <div class=" text-xl mb-2 font-oswald font-light">MG4 review: electric hatchback smashes its brief (and its rivals)</div>
+
                     </div>
                 </div>
 
@@ -34,11 +34,13 @@ const Discover = () => {
                         <img class="w-full h-full" src="https://wallpapercave.com/wp/wp4409139.jpg" alt="Forest" />
                     </div>
                     <div class=" py-4">
-                    <div class=" text-xl mb-2 font-oswald font-light">MG4 review: electric hatchback smashes its brief (and its rivals)</div> 
-                        
+                        <div class=" text-xl mb-2 font-oswald font-light">MG4 review: electric hatchback smashes its brief (and its rivals)</div>
+
                     </div>
                 </div>
             </div>
+
+         
         </div>
 
     )

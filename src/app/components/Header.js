@@ -20,7 +20,7 @@ const Header = () => {
         <div className='text-[#292524] text-[1rem] px-10 py-2 flex items-center justify-center gap-7 flex-wrap'>
           <Link href={'/'}>Home</Link>
           <Link href={'/vehicels'}>Vehicles</Link>
-          <Link href={'#'}>News & Reviews</Link>
+          <Link href={'/newandreviews'}>News & Reviews</Link>
           <Link href={'#'}>Contact us</Link>
           <Link href={'#'}>Art & Culter</Link>
           <Link href={'#'}>Sustainability</Link>

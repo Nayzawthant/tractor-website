@@ -9,9 +9,9 @@ export default function Home() {
   return (
     <div>
       <HeroSlide />
-      
-      <Vehicels />
       <Experience />
+      <Vehicels />
+      
       <Discover />
     </div>
   )

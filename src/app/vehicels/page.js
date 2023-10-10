@@ -4,7 +4,7 @@ import VehiclesCard from '../components/VehiclesCard'
 
 const page = () => {
   return (
-    <div className='bg-[#ecf0f3]'>
+    <div className='bg-[#fff]'>
       <div className='text-[#292524] text-[30px] w-[80%] pt-10 mx-auto'>
         Products
       </div>

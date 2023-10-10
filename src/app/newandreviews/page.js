@@ -60,7 +60,7 @@ const page = () => {
                                     <p className="mb-3 text-[20px] text-[#fff] transition-opacity duration-300 opacity-100">{item?.title}</p>
                                 </div>
                                 <div className="absolute inset-0 flex translate-y-[80%] flex-col px-6 transition-all duration-500 ">
-                                    <p className="mb-3 text-[#fff] transition-opacity duration-300 opacity-100 text-md">50 hp</p>
+                                    <p className="mb-3 text-[#fff] transition-opacity duration-300 opacity-100 text-md">Learn More</p>
                                 </div>
                             </div>
                         )

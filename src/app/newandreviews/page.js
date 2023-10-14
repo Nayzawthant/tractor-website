@@ -44,7 +44,7 @@ const page = () => {
         },
     ]
     return (
-        <div className='py-20'>
+        <div className='py-20 bg-[#f5f2f2]'>
             <div className="grid grid-cols-1 w-[80%] mx-auto gap-5 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 font-semibold">
 
                 {

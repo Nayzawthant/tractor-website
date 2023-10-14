@@ -166,11 +166,31 @@ body {
 
 
 .mainback {
-  background: #ecf0f3;
-  font-weight: 400;
-  letter-spacing: 1px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   margin-bottom: 2px;
+}
+
+
+li {
+  position: relative;
+}
+
+li:hover {
+  color: #C41230;
+}
+
+li::before {
+  content: '';
+  position: absolute;
+  bottom: -3px;
+  background-color: #C41230;
+  width: 0%;
+  height: 2px;
+  transition: all 0.3s ease-in-out;
+}
+
+li:hover::before {
+  width: 100%;
 }
 
 

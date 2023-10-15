@@ -69,10 +69,10 @@ const Navbar = () => {
                             <Link href='/newandreviews'>News & Reviews</Link>
                         </li>
                         <li className='ml-10 text-sm uppercase'>
-                            <Link href='/#projects'>About Us</Link>
+                            <Link href='/about'>About Us</Link>
                         </li>
                         <li className='ml-10 text-sm uppercase'>
-                            <Link href='/#contact'>Contact us</Link>
+                            <Link href='/contact'>Contact us</Link>
                         </li>
                     </ul>
                     {/* Hamburger Icon */}
@@ -142,12 +142,12 @@ const Navbar = () => {
                                     News & Reviews
                                 </li>
                             </Link>
-                            <Link href='/#projects'>
+                            <Link href='/about'>
                                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
                                     About Us
                                 </li>
                             </Link>
-                            <Link href='/#contact'>
+                            <Link href='/contact'>
                                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
                                     Contact Us
                                 </li>

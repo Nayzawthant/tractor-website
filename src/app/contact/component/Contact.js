@@ -1,14 +1,18 @@
-
-import React from 'react'
-import Image from 'next/image';
+'use client'
+import React, { useEffect } from 'react';
+import AOS from 'aos';
 import { AiOutlineMail } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 import { GrLocation } from 'react-icons/gr'
 import { BsTelephone } from 'react-icons/bs'
+import { BsFacebook, BsFillCaretRightFill, BsInstagram, BsLinkedin, BsTwitter, BsYoutube } from 'react-icons/bs';
 import ContactFooter from './ContactFooter';
 
 const Contact = () => {
+    useEffect(() => {
+        AOS.init();
+    }, []);
     return (
         <div className='w-full'>
             <div className="relative flex justify-center w-full mb-3 lg:mb-14">
@@ -22,7 +26,7 @@ const Contact = () => {
                 </div>
                 <div className="absolute bottom-0 isolate">
                     <div className="relative contact-outer-parent">
-                        <h1 className="px-10 py-8 m-0 text-2xl font-bold text-black lg:px-32 lg:text-4xl lg:py-11 font-bruno-ace">
+                        <h1 className="px-10 py-8 m-0 text-2xl font-bold text-black lg:px-32 lg:text-4xl lg:py-11">
                             CONTACT US
                         </h1>
                         <div
@@ -32,7 +36,7 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
-            <div id='contact' className='w-full lg:h-screen'>
+            <div id='contact' className='w-full lg:h-[90vh]'>
                 <div className='max-w-[1240px] m-auto px-2 py-16 w-full '>
 
                     <div className='grid items-center w-full gap-8 md:grid-cols-2 lg:grid-cols-2'>
@@ -78,42 +82,8 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
+
             <ContactFooter />
-            <div>
-                <h1 className='py-4 text-gray-700'>
-                    Hi, I&#39;m <span className='text-[#1127f2]'> Nay Zaw Thant</span>
-                </h1>
-                <h1 className='py-2 text-gray-700'>A Front-End Web Developer</h1>
-                <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
-                    I’m focused on building responsive front-end web applications
-                    integrating back-end technologies.
-                </p>
-                <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
-                    <a
-                        href='https://www.linkedin.com/in/nay-zaw-zaw-b6b345271/'
-                        target='_blank'
-                        rel='noreferrer'
-                    >
-                        <div className='p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110'>
-                            <FaLinkedinIn />
-                        </div>
-                    </a>
-                    <a
-                        href='https://github.com/Nayzawthant'
-                        target='_blank'
-                        rel='noreferrer'
-                    >
-                        <div className='p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110'>
-                            <FaGithub />
-                        </div>
-                    </a>
-                    <a href='/#contact'>
-                        <div className='p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110'>
-                            <AiOutlineMail />
-                        </div>
-                    </a>
-                </div>
-            </div>
         </div>
     )
 }

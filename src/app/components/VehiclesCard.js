@@ -55,7 +55,7 @@ const VehiclesCard = ({ key, frontContent, backContent }) => {
                     <div class="px-3 text-center">
                         <div class="font-bold text-gray-800 text-[16px] mb-2 tracking-widest opacity-90">MF RK Series</div>
                         <p class="text-gray-700 text-[14px]">
-                            High Performance Range of Rakes
+                            Rental time - 
                         </p>
                     </div>
                     <div class="px-3 pt-4 pb-4">

@@ -162,23 +162,17 @@ body {
 
 }
 
-
 .mainback {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   margin-bottom: 2px;
 }
-
 
 h1, h2, h3, h4, h5, h6 {
   @apply font-bold
 }
 
 h1 {
-  font-family: 'Raleway', sans-serif;
-}
-
-h1 {
-  @apply text-4xl sm:text-5xl md:text-6xl font-[Raleway]
+  @apply text-4xl sm:text-5xl md:text-6xl 
 }
 
 h2 {

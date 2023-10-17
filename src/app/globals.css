@@ -206,6 +206,23 @@ li:hover::before {
   width: 100%;
 }
 
+.vehicels_details {
+  background-color: #f9f9f9;
+}
+
+.field {
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.field:focus {
+  outline: none;
+  border: 1px solid #666565;
+  border-radius: 1px;
+  box-shadow: #C41230 0px 0px 5px 0px, #C41230 0px 0px 1px 0px;
+
+}
+
 
 .font-bruno-ace {
   font-family: 'Karla';

@@ -18,7 +18,7 @@ const Discover = () => {
     ]
     return (
         <div className='bg-[#fff] w-full'>
-            <div className='p-10 pb-0 w-[85%] mx-auto text-[30px] text-[#292524] font-semibold tracking-wider opacity-90'>
+            <div className='p-10 pb-0 w-[85%] mx-auto text-[30px] text-[#C41230] font-semibold tracking-wider opacity-90'>
                 Latest News
                 <div className='text-gray-700 text-[14px] font-semibold mt-5'>Explore the world of Tractor through our latest news, events and videos</div>
                 <div className='product-border mt-4 bg-[#bfbfbf]'></div>

@@ -43,7 +43,7 @@ const VehiclesCard = ({ key, frontContent, backContent }) => {
                     <div class="px-7 pt-4 pb-4">
                         <div className='flex justify-center storebutton'>
                             <button onClick={toggleCard} className="mr-3 text-white font-dmserif text-md one">Close</button>
-                            <a href='#' className="text-white font-dmserif text-md two">Discover</a>
+                            <a href='/vehicels/123' className="text-white font-dmserif text-md two">Discover</a>
 
                         </div>
 
@@ -60,7 +60,7 @@ const VehiclesCard = ({ key, frontContent, backContent }) => {
                     </div>
                     <div class="px-3 pt-4 pb-4">
                         <div className='flex justify-center storebutton'>
-                            <a href='#' className="text-white font-dmserif text-md two">Discover</a>
+                            <a href='/vehicels/123' className="text-white font-dmserif text-md two">Discover</a>
                             <button onClick={toggleCard} className="text-white font-dmserif text-md one">Quick View</button>
                         </div>
                     </div>

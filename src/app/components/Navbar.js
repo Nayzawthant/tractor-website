@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
+import SearchBox from './SearchBox';
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
@@ -84,9 +85,13 @@ const Navbar = () => {
                         <AiOutlineMenu size={25} />
                     </div>
                 </div>
-                <div className='shadow-login'>
-                    <Link href={'#'} className='text-white tex-[12px] two' >Login</Link>
+
+                <div className='bg-red-900 '>
+                    <SearchBox />
                 </div>
+                {/* <div className='shadow-login'>
+                    <Link href={'#'} className='text-white tex-[12px] two' >Login</Link>
+                </div> */}
             </div>
 
 

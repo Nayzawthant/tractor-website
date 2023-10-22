@@ -18,9 +18,7 @@ export default function RootLayout({ children }) {
       <body>
         
         <Navbar />
-        <div className='absolute top-0 bg-red-900 z-100'>
-        <SearchBox />
-        </div>
+        
         <div className='pt-20'>
         {children}
         </div>

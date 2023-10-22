@@ -1,6 +1,7 @@
 "use client"
 import Link from 'next/link'
 import React, { useState } from 'react'
+import SearchBox from './SearchBox'
 
 
 const Header = () => {
@@ -27,10 +28,14 @@ const Header = () => {
 
         </div>
 
-        <div className='shadow-login'>
+        <div className='bg-red-900 '>
+        <SearchBox />
+        </div>
+
+        {/* <div className='shadow-login'>
 
           <Link href={'#'} className='text-white tex-[12px] two' >Login</Link>
-        </div>
+        </div> */}
       </div>
     </div>
   )

@@ -27,15 +27,14 @@ function SearchBox() {
 
   return (
     <div className="search">
-      <div className="searchInputs">
-        <input
+      <form class="form">
+        <input class="form__field"
           type="text"
           placeholder="Enter..."
           value={wordEntered}
-          onChange={handleFilter}
-        />
-        
-      </div>
+          onChange={handleFilter} />
+      </form>
+
       {filteredData.length != 0 && (
         <div className="dataResult">
           {filteredData.slice(0, 15).map((value, key) => {

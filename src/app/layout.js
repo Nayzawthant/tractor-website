@@ -1,7 +1,7 @@
 import Footer from './components/Footer'
 import Header from './components/Header'
 import Navbar from './components/Navbar'
-import SearchBox from './components/SearchBox'
+import { SearchContextProvider } from './context/search'
 import './globals.css'
 import { Inter } from 'next/font/google'
 
@@ -14,16 +14,18 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
+    <SearchContextProvider>
     <html lang="en">
-      <body>
-        
-        <Navbar />
-        
-        <div className='pt-20'>
-        {children}
+      <body >
+        <Header />
+       
+        <div className="pt-20">
+          {children}
         </div>
+
         <Footer />
       </body>
     </html>
+  </SearchContextProvider>
   )
 }

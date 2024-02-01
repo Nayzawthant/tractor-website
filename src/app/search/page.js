@@ -1,10 +1,11 @@
 import React from 'react'
-import SearchBox from '../components/SearchBox'
+import Search from '../components/Search'
+import SearchData from './components/SearchData'
 
 const page = () => {
   return (
     <div className='App'>
-        <SearchBox />
+        <SearchData />
     </div>
   )
 }

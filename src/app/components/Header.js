@@ -60,7 +60,7 @@ const Header = () => {
                 spy={true}
                 className='cursor-pointer'
             >
-                <Image src={'/logo.svg'} width={194} height={64} alt="" />
+                <Image src={'/th.jpg'} width={194} height={44} className="h-[50px] bg-transparent" alt="" />
             </Link>
 
             <div

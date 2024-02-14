@@ -12,7 +12,7 @@ const Vehicels = () => {
                     <div className='text-gray-700 text-[14px] font-semibold mt-5'>Explore out tactors you might like</div>
                 </div>
 
-                <div class="py-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-5  ">
+                <div className="grid grid-cols-1 gap-5 py-10 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4">
                     <VehiclesCard />
                     <VehiclesCard />
                     <VehiclesCard />

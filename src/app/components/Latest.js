@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import { FaCarAlt } from "react-icons/fa";
 import { AiOutlineCaretDown } from 'react-icons/ai'
 import { RiExpandUpDownLine } from "react-icons/ri";
+import LatestCard from './LatestCard';
 
 
 const Latest = () => {
@@ -87,6 +88,12 @@ const Latest = () => {
                         ) : null
                     }
                 </div>
+            </div>
+            <div className='grid grid-cols-1 gap-5 py-10 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4'>
+                <LatestCard />
+                <LatestCard />
+                <LatestCard />
+                <LatestCard />
             </div>
         </div>
     )

@@ -9,8 +9,8 @@ const VehiclesCard = ({ key, frontContent, backContent }) => {
     };
     return (
 
-        <div className={`card ${isBackVisible ? 'card-back' : 'card-front'}`}>
-            {isBackVisible ?
+        <div className={`card ${isBackVisible ? 'card-back' : 'card-front'}` }>
+            { isBackVisible ?
                 <div class="rounded overflow-hidden shadow-lg bg-white border border-1">
                     <div className='flex py-4 px-7 justify-between text-[14px] pt-10'>
                         <div className='w-1/2'>

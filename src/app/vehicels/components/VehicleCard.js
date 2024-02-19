@@ -1,73 +1,49 @@
 import React from 'react'
+import { GiSteeringWheel } from "react-icons/gi";
+import { FaGasPump } from "react-icons/fa6";
+import { WiTime3 } from "react-icons/wi";
+import { MdCarRental } from "react-icons/md";
 
 const VehicleCard = () => {
     return (
-        <div>
-            <div class=" w-[80%]  m-auto flex flex-wrap flex-col md:flex-row items-center justify-start">
+        <div className="overflow-hidden border rounded shadow-lg cursor-pointer border-spacing-1 ">
+            
+            <img className="w-full h-48" src="https://pngimg.com/uploads/tractor/tractor_PNG101301.png" alt="Mountain" />
+            <div className="px-5 pt-4">
+                <div className="font-bold text-gray-800 text-[16px] mb-2 tracking-widest opacity-90">MF RK Series</div>
+            </div>
 
-                <div class="w-full lg:w-1/2 p-3">
-                    <div class="flex flex-col lg:flex-row rounded overflow-hidden h-auto lg:h-32 border shadow shadow-lg">
-                        <img class="block h-full w-full lg:w-48 flex-none bg-cover " src="https://pbs.twimg.com/media/DrM0nIdU0AEhG5b.jpg" />
-                        <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
-                            <div class="text-black font-bold text-xl mb-2 leading-tight">Can life make you a bitter developer?</div>
-                            <p class="text-grey-darker text-base">Read more</p>
+            <div className="px-3 pt-4 pb-4">
+                <div className='flex justify-between storebutton'>
+                    <div className='text-black '>
+                        <div className='flex justify-center'>
+                            <GiSteeringWheel className='mb-2 text-xl text-blue-600' />
                         </div>
+                        John Deere
                     </div>
-                </div>
-
-
-                <div class="w-full lg:w-1/2 p-3">
-                    <div class="flex flex-col lg:flex-row-reverse rounded overflow-hidden h-auto lg:h-32 border shadow shadow-lg">
-                        <img class="block h-auto w-full lg:w-48 flex-none bg-cover" src="https://images.pexels.com/photos/1302883/pexels-photo-1302883.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" />
-                        <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
-                            <div class="text-black font-bold text-xl mb-2 leading-tight">Can coffee make you a bitter developer?</div>
-                            <p class="text-grey-darker text-base">Read more</p>
+                    <div className='text-black'>
+                        <div className='flex justify-center'>
+                            <MdCarRental className='mb-2 text-xl text-yellow-600' />
                         </div>
+                        $30 / day
                     </div>
-                </div>
-
-
-                <div class="w-full lg:w-1/2 p-3">
-                    <div class="flex flex-col lg:flex-row rounded overflow-hidden h-auto lg:h-32 border shadow shadow-lg">
-                        <img class="block h-auto w-full lg:w-48 flex-none bg-cover h-24" src="https://pbs.twimg.com/media/DrM0nIdU0AEhG5b.jpg" />
-                        <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
-                            <div class="text-black font-bold text-xl mb-2 leading-tight">Can coffee make you a bitter developer?</div>
-                            <p class="text-grey-darker text-base">Read more</p>
+                    <div className='text-black'>
+                        <div className='flex justify-center'>
+                            <WiTime3 className='mb-2 text-xl text-red-600' />
                         </div>
+                        6 days
                     </div>
-                </div>
-
-
-                <div class="w-full lg:w-1/2 p-3">
-                    <div class="flex flex-col lg:flex-row rounded overflow-hidden h-auto lg:h-32 border shadow shadow-lg">
-                        <img class="block h-auto w-full lg:w-48 flex-none bg-cover h-24" src="https://images.pexels.com/photos/1302883/pexels-photo-1302883.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"/>
-                            <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
-                                <div class="text-black font-bold text-xl mb-2 leading-tight">Can coffee make you a bitter developer?</div>
-                                <p class="text-grey-darker text-base">Read more</p>
-                            </div>
-                    </div>
-                </div>
-
-                <div class="w-full lg:w-1/2 p-3">
-                    <div class="flex flex-col lg:flex-row-reverse rounded overflow-hidden h-auto lg:h-32 border shadow shadow-lg">
-                        <img class="block h-auto w-full lg:w-48 flex-none bg-cover h-24" src="https://images.pexels.com/photos/1302883/pexels-photo-1302883.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" />
-                        <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
-                            <div class="text-black font-bold text-xl mb-2 leading-tight">Can green tea make you a bitter developer?</div>
-                            <p class="text-grey-darker text-base">Read more</p>
+                    <div className='text-black'>
+                        <div className='flex justify-center'>
+                            <FaGasPump className='mb-2 text-xl text-green-600' />
                         </div>
+                        30 Gallons
                     </div>
-                </div>
 
-                <div class="w-full lg:w-1/2 p-3">
-                    <div class="flex flex-col lg:flex-row rounded overflow-hidden h-auto lg:h-32 border shadow shadow-lg">
-                        <img class="block h-auto w-full lg:w-48 flex-none bg-cover h-24" src="https://images.pexels.com/photos/1302883/pexels-photo-1302883.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" />
-                        <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
-                            <div class="text-black font-bold text-xl mb-2 leading-tight">when you're lonely press play</div>
-                            <p class="text-grey-darker text-base">What Not</p>
-                        </div>
-                    </div>
                 </div>
-
+            </div>
+            <div className='vheicelbutton'>
+                <a href='/vehicels/123' className="text-white font-dmserif text-md">See Details</a>
             </div>
         </div>
     )

@@ -1,11 +1,51 @@
-import React from 'react'
-import { AiOutlineMail } from 'react-icons/ai';
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
-import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
-import { GrLocation } from 'react-icons/gr'
-import { BsTelephone } from 'react-icons/bs'
+"use client"
+import React, { useEffect, useState } from 'react';
+
 
 const VehicleForm = () => {
+    const [formvalue, setFormValue] = useState({ name: '', phone: '', township: '', village: '' });
+    const [formerror, setFormerror] = useState({});
+    const [issubmit, setSubmit] = useState(false); 
+
+    const handlevalidation = (e) => {
+        const {name , value} = e.target;
+        setFormValue({...formvalue, [name] : value});
+    }
+
+    const handlesubmit = (e) => {
+        e.preventDefault();
+        setFormerror(validationform(formvalue)); 
+        setSubmit(true);
+    }
+
+    const validationform = (value) => {
+        const errors = {};
+        if (!value.name) {
+            errors.name = "Please Enter Name";
+        }
+
+        if (!value.phone) {
+            errors.phone = "Please Enter Phone"
+        }
+
+        if (!value.township) {
+            errors.township = "Please Enter Township"
+        }
+
+        if (!value.village) {
+            errors.village = "Please Enter Village "
+        }
+
+        return errors;
+
+        
+    }
+
+    useEffect(() => {
+        if (Object.keys(formerror).lenght === 0 && issubmit) {
+            console.log(formvalue);
+        }
+    }, [formerror]);
     return (
         <div className="py-20">
             <p className='text-xl tracking-widest font-bold mb-8 uppercase text-[#C41230]'>
@@ -13,47 +53,19 @@ const VehicleForm = () => {
             </p>
             
             <div className="grid grid-cols-1 text-center lg:grid-cols-2">
-                <div className='mt-2'>
-                    <div className='flex items-center mb-8'>
-                        <div className='p-4 mr-6 duration-300 ease-in bg-white border cursor-pointer rounded-xl border-black/30 hover:scale-110' >
-                            <img className='w-[18px] h-[18px]' src='https://www.masseyferguson.com/content/dam/public/masseyfergusonglobal/markets/en/icons/icon-lift-capacity.png' alt='maxi' />
-                        </div>
+                
+                <form className="" onSubmit={handlesubmit}>
+                    <input type="text" name="name" value={formvalue.name} onChange={handlevalidation} className="w-full p-2 py-4 mb-4 text-[#333333] field" placeholder="Your Name" />
+                    <div className='text-[#C41230] w-full text-left'>{formerror.name}</div>
+                    <input type="number" name="phone" value={formvalue.phone} onChange={handlevalidation} className="w-full p-2 py-4 mb-4 text-[#333333] field" placeholder="Your Phone" />
+                    <div className='text-[#C41230] w-full text-left'>{formerror.phone}</div>
+                    <input type="text" name="township" value={formvalue.township} onChange={handlevalidation} className="w-full p-2 py-4 mb-4 text-[#333333] field" placeholder="Your Township" />
+                    <div className='text-[#C41230] w-full text-left'>{formerror.township}</div>
+                    <input type="text" name='village' value={formvalue.village} onChange={handlevalidation} className="w-full p-2 py-4 mb-4 text-[#333333] field" placeholder="Your Village" />
+                    <div className='text-[#C41230] w-full text-left'>{formerror.village}</div>
+                    <button type='submit' className="w-full p-2 text-white bg-[#C41230] btn hover:bg-[#C91230]">Send</button>
 
-                        <p className='text-[#333333]'>Maximum Lift Capacity(kg) - <span className='text-[#686868] text-[14px]' >12,000</span> </p>
-                    </div>
-                    <div className='flex items-center mb-8 '>
-                        <div className='p-4 mr-6 duration-300 ease-in bg-white border cursor-pointer rounded-xl border-black/30 hover:scale-110' >
-                            <img className='w-[18px] h-[18px]' src='https://www.masseyferguson.com/content/dam/public/masseyfergusonglobal/markets/en/icons/icon-pistons.jpg' alt='maxi' />
-                        </div>
-
-                        <p className='text-[#333333]'>Transmission - <span className='text-[#686868] text-[14px]' >Dyna-VT</span> </p>
-                    </div>
-                    <div className='flex items-center mb-6 '>
-                        <div className='p-4 mr-6 duration-300 ease-in bg-white border cursor-pointer rounded-xl border-black/30 hover:scale-110' >
-                            <img className='w-[18px] h-[18px]' src='https://www.masseyferguson.com/content/dam/public/masseyfergusonglobal/markets/en/icons/icon-turbo.jpg' alt='maxi' />
-                        </div>
-
-                        <p className='text-[#333333]'>Engine - <span className='text-[#686868] text-[14px]' >All-in-One Stage V</span> </p>
-                    </div>
-                    
-                    <div className='flex items-center mb-6 '>
-                        <div className='p-4 mr-6 duration-300 ease-in bg-white border cursor-pointer rounded-xl border-black/30 hover:scale-110' >
-                            <img className='w-[18px] h-[18px]' src='https://www.masseyferguson.com/content/dam/public/masseyfergusonglobal/markets/en/icons/icon-max-horsepower.png' alt='maxi' />
-                        </div>
-
-                        <p className='text-[#333333]'>Maximum HP - <span className='text-[#686868] text-[14px]' >400</span> </p>
-                    </div>
-                </div>
-                <div className="">
-                    <input type="text" className="w-full p-2 py-4 mb-4 text-[#333333] field" placeholder="Your Name" />
-                    <input type="email" className="w-full p-2 py-4 mb-4 text-[#333333] field" placeholder="Your Email" />
-                    <input type="text" className="w-full p-2 py-4 mb-4 text-[#333333] field" placeholder="Your Phone" />
-                    <input type="text" className="w-full p-2 py-4 mb-4 text-[#333333] field" placeholder="Your Township" />
-                    <input type="text" className="w-full p-2 py-4 mb-4 text-[#333333] field" placeholder="Your Village" />
-                    <input type="date" className="w-full p-2 py-4 mb-4 text-[#333333] field" placeholder="Your Date" />
-                    <button className="w-full p-2 text-white bg-[#C41230] btn hover:bg-[#C91230]">Send</button>
-
-                </div>
+                </form>
 
             </div>
         </div>

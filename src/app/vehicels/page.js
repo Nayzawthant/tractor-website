@@ -1,5 +1,6 @@
 import React from 'react'
-import VehiclesCard from '../components/VehiclesCard'
+import VehicleCard from './components/VehicleCard'
+
 
 
 const page = () => {
@@ -10,22 +11,22 @@ const page = () => {
       </p>
       
       <div className="grid w-[80%] mx-auto grid-cols-1 gap-5 py-10 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 ">
-        <VehiclesCard />
-        <VehiclesCard />
-        <VehiclesCard />
-        <VehiclesCard />
-        <VehiclesCard />
-        <VehiclesCard />
-        <VehiclesCard />
-        <VehiclesCard />
-        <VehiclesCard />
-        <VehiclesCard />
-        <VehiclesCard />
-        <VehiclesCard />
-        <VehiclesCard />
-        <VehiclesCard />
-        <VehiclesCard />
-        <VehiclesCard />
+        <VehicleCard />
+        <VehicleCard />
+        <VehicleCard />
+        <VehicleCard />
+        <VehicleCard />
+        <VehicleCard />
+        <VehicleCard />
+        <VehicleCard />
+        <VehicleCard />
+        <VehicleCard />
+        <VehicleCard />
+        <VehicleCard />
+        <VehicleCard />
+        <VehicleCard />
+        <VehicleCard />
+        <VehicleCard />
       </div>
     </div>
   )

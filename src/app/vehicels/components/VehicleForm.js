@@ -45,7 +45,7 @@ const VehicleForm = () => {
         if (Object.keys(formerror).lenght === 0 && issubmit) {
             console.log(formvalue);
         }
-    }, [formerror]);
+    }, [formerror, issubmit, formvalue]);
     return (
         <div className="py-20">
             <p className='text-xl tracking-widest font-bold mb-8 uppercase text-[#C41230]'>

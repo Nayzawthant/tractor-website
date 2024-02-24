@@ -48,7 +48,7 @@ const FirstForm = () => {
 
     return (
         <div className='w-[50%] mx-auto'>
-            <div>First Form</div>
+            
             <form className="" onSubmit={handlesubmit}>
                 <input type="text" name="name" value={formvalue.name} onChange={handlevalidation} className="w-full p-2 py-4 mb-4 text-[#333333] field" placeholder="Your Name" />
                 <div className='text-[#C41230] w-full text-left'>{formerror.name}</div>

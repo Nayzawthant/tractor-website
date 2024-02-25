@@ -79,11 +79,11 @@ const Stepper = ({ steps, currentStep }) => {
                             ) : (index + 1)
                         }
                     </div>
-                    <div className={`absolute top-0 w-32 mt-16 text-xs font-medium text-center uppercase ${step.highlighted ? "text-gray-900" : "text-gray-400"}`}>{/* Display description */}
+                    <div className={`absolute top-0  mt-16 text-xs font-medium text-center uppercase ${step.highlighted ? "text-gray-900" : "text-gray-400"}`}>{/* Display description */}
                         {step.description}
                      </div>
                 </div>
-                <div className='flex-auto transition duration-500 ease-in-out border-t-2'>{/* Display line */}</div>
+                <div className={`flex-auto transition duration-500 ease-in-out border-t-2 ${step.completed ? "border-green-600" : "border-gray-300"}`}>{/* Display line */}</div>
             </div>
         )
     })

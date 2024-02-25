@@ -3,8 +3,9 @@ import Step from './components/Step'
 
 const page = () => {
     const steps = [
-        "Account Information",
-        "Personal Details",
+        "Owner Information",
+        "Vehicle Information",
+        "Price",
         "Complete"
     ];
    

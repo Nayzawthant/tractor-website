@@ -117,13 +117,13 @@ const Header = () => {
                     CONTACT US
                 </Link>
                 <Link 
-                    className="cursor-pointer  btn btn-primary btn-sm max-w-[164px] mx-auto"
-                    href='/'
+                    className={`${pathname === '/steper' ? 'text-[#C41230]' : ''} cursor-pointer hover:text-[#C41230]`}
+                    href='/steper'
                     activeClass='active'
                     smooth={desktopMode}
                     spy={true}
                 >
-                    See all cars
+                    RENTAL VEHICELS
                 </Link>
                
             </nav>

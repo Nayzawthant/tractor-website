@@ -19,19 +19,19 @@ const Footer = () => {
       </div>
       <div className='flex flex-wrap items-center justify-between w-full text-white mt-9'>
         <a href='#' className='w-[90px] footer_img h-[90px] text-white flex justify-center items-center'>
-          <img alt='footer' src='https://tse1.mm.bing.net/th?id=OIP.GCEnSTN4caiLb4KonzmT1gHaFG&pid=Api&P=0&h=220' className='w-full' />
+          <img alt='footer' src='footerlogo.jpg' className='w-full' />
         </a>
         <a href='#' className='w-[90px] footer_img h-[90px] text-white flex justify-center items-center'>
-          <img alt='footer' src='https://tse1.mm.bing.net/th?id=OIP.GCEnSTN4caiLb4KonzmT1gHaFG&pid=Api&P=0&h=220' className='w-full' />
+          <img alt='footer' src='footerlogo.jpg' className='w-full' />
         </a>
         <a href='#' className='w-[90px] footer_img h-[90px] text-white flex justify-center items-center'>
-          <img alt='footer' src='https://tse1.mm.bing.net/th?id=OIP.GCEnSTN4caiLb4KonzmT1gHaFG&pid=Api&P=0&h=220' className='w-full' />
+          <img alt='footer' src='footerlogo.jpg' className='w-full' />
         </a>
         <a href='#' className='w-[90px] footer_img h-[90px] text-white flex justify-center items-center'>
-          <img alt='footer' src='https://tse1.mm.bing.net/th?id=OIP.GCEnSTN4caiLb4KonzmT1gHaFG&pid=Api&P=0&h=220' className='w-full' />
+          <img alt='footer' src='footerlogo.jpg' className='w-full' />
         </a>
         <a href='#' className='w-[90px] footer_img h-[90px] text-white flex justify-center items-center'>
-          <img alt='footer' src='https://tse1.mm.bing.net/th?id=OIP.GCEnSTN4caiLb4KonzmT1gHaFG&pid=Api&P=0&h=220' className='w-full' />
+          <img alt='footer' src='footerlogo.jpg' className='w-full' />
         </a>
 
 

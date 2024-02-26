@@ -49,7 +49,7 @@ function HeroSlide() {
 
                             </div>
                         </div>
-                        <img src="https://www.masseyferguson.com/content/dam/public/masseyfergusonglobal/markets/en/assets/discover-mf/mf-experience-tour/mf-experience-tour-2023-1400x700.jpg" alt="" className="w-full h-full" />
+                        <img src="/HeroOne.jpg" alt="" className="w-full h-full" />
 
                     </div>
                 </SwiperSlide>
@@ -64,7 +64,7 @@ function HeroSlide() {
                                 </div>
                             </div>
                         </div>
-                        <img src="https://www.masseyferguson.com/content/dam/public/masseyfergusonglobal/markets/en/assets/homepage/hero/MF_IDEAL_8_8T_WORK_FR_0722_07_Felix_edit_IDEAL-2.jpg" alt="" className="w-full h-full" />
+                        <img src="HeroTwo.jpg" alt="" className="w-full h-full" />
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
@@ -79,7 +79,7 @@ function HeroSlide() {
 
                             </div>
                         </div>
-                        <img src="https://www.masseyferguson.com/content/dam/public/masseyfergusonglobal/markets/en/assets/balers/mf-2200/2nd-gen/mf-2200-hero-2023-1400x700.jpg" alt="" className="w-full h-full" />
+                        <img src="HeroThree.jpg" alt="" className="w-full h-full" />
 
 
 
@@ -87,12 +87,7 @@ function HeroSlide() {
                 </SwiperSlide>
 
 
-                <button className="prev-button" onClick={handlePrev}>
-                    <MdArrowBackIos />
-                </button>
-                <button className="next-button" onClick={handleNext}>
-                    <MdArrowForwardIos />
-                </button>
+                
 
 
             </Swiper>

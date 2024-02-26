@@ -4,43 +4,43 @@ const page = () => {
     const NewsData = [
         {
             title: "Kubota",
-            img: "https://images.pexels.com/photos/2575135/pexels-photo-2575135.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            img: "newone.jpeg"
         },
         {
             title: "Kubota",
-            img: "https://media.istockphoto.com/id/491151340/photo/tractor-on-the-field.jpg?s=2048x2048&w=is&k=20&c=Xb9WgHAK6K1kyEKJH5OSIh7mVzQuAnysFwrjxudDY84="
+            img: "newtwo.jpg"
         },
         {
             title: "Kubota",
-            img: "https://images.pexels.com/photos/4439573/pexels-photo-4439573.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            img: "newthree.jpeg"
         },
         {
             title: "Kubota",
-            img: "https://images.pexels.com/photos/6020273/pexels-photo-6020273.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            img: "newfour.jpeg"
         },
         {
             title: "Kubota",
-            img: "https://images.pexels.com/photos/14242144/pexels-photo-14242144.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            img: "newfive.jpeg"
         },
         {
             title: "Kubota",
-            img: "https://images.pexels.com/photos/14242188/pexels-photo-14242188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            img: "newsevern.jpeg"
         },
         {
             title: "Kubota",
-            img: "https://images.pexels.com/photos/12973133/pexels-photo-12973133.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            img: "newsix.jpeg"
         },
         {
             title: "Kubota",
-            img: "https://images.pexels.com/photos/11996942/pexels-photo-11996942.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            img: "newthree.jpeg"
         },
         {
             title: "Kubota",
-            img: "https://images.pexels.com/photos/11996942/pexels-photo-11996942.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            img: "newone.jpeg"
         },
         {
             title: "Kubota",
-            img: "https://images.pexels.com/photos/11996942/pexels-photo-11996942.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            img: "newsix.jpeg"
         },
     ]
     return (

@@ -41,7 +41,7 @@ const Contact = () => {
 
                     <div className='grid items-center w-full gap-8 md:grid-cols-2 lg:grid-cols-2'>
                         <div>
-                            <img src='https://images.pexels.com/photos/5622305/pexels-photo-5622305.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='contact_img' />
+                            <img src='contact.webp' alt='contact_img' />
                         </div>
                         <div className='p-2'>
 

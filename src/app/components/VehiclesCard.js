@@ -64,7 +64,7 @@ const VehiclesCard = () => {
                     <div className="px-5 pt-4">
                         <div className="font-bold text-gray-800 text-[16px] mb-2 tracking-widest opacity-90">MF RK Series</div>
                     </div>
-                    <img class="w-full h-48" src="https://pngimg.com/uploads/tractor/tractor_PNG101301.png" alt="Mountain" />
+                    <img class="w-full h-48" src="vehicel.png" alt="Mountain" />
 
                     <div class="px-3 pt-4 pb-4">
                         <div className='flex justify-center storebutton'>

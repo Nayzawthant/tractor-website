@@ -5,15 +5,15 @@ const Discover = () => {
     const DiscoverData = [
         {
             title: "KUBOTA TACTOR",
-            img: "https://images.pexels.com/photos/5580718/pexels-photo-5580718.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            img: "discover.jpeg",
         },
         {
             title: "KUBOTA TACTOR",
-            img: "https://images.pexels.com/photos/7532304/pexels-photo-7532304.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            img: "discoverone.jpeg"
         },
         {
             title: "KUBOTA TACTOR",
-            img: "https://images.pexels.com/photos/8365714/pexels-photo-8365714.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            img: "discovertwo.jpeg"
         }
     ]
     return (
